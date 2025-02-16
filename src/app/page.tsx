@@ -1,17 +1,16 @@
-import Navbar from '../../componsts/Navbar/Navbar'
-import Header from '../../componsts/Header/Header'
-import Section1 from '../../componsts/Section1/Section1'
-import Section2 from '../../componsts/Section2/Section2'
-import Section3 from '../../componsts/Section3/Section3'
-import Section4 from '../../componsts/Section4/Section4'
-import Section5 from '../../componsts/Section5/Section5'
-import Footer from '../../componsts/Footer/Footer'
+
+import Header from '../../components/Header/Header'
+import Section1 from '../../components/Section1/Section1'
+import Section2 from '../../components/Section2/Section2'
+import Section3 from '../../components/Section3/Section3'
+import Section4 from '../../components/Section4/Section4'
+import Section5 from '../../components/Section5/Section5'
+import Footer from '../../components/Footer/Footer'
 
 const home = () => {
   return (
     <div>
 
-      <Navbar/>
       <Header/>
       <Section1/>
       <Section2/>

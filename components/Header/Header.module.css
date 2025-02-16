@@ -1,0 +1,28 @@
+.main_container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background: #000;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.button_group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.navbar_imp{
+    position: fixed;
+    width: 100%;
+    /* border: 1px solid red; */
+    z-index: 1;
+}
